@@ -13,6 +13,14 @@
                        VerticalOptions="Center" />
             </Border>
         </gridSplitter:SplitterPane>
+        
+        <gridSplitter:SplitterPane HeightRequest="350">
+            <Border Background="LightGreen">
+                <Label Text="Pane 2"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
+            </Border>
+        </gridSplitter:SplitterPane>
     </gridSplitter:SfGridSplitter>
 
     <HorizontalStackLayout Spacing="10">
